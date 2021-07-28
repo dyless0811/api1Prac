@@ -17,7 +17,7 @@ public class Member {
     @Override
     public boolean equals(Object obj) {
         Member m = (Member) obj;
-        if(m.name == m.age){}
+        if(m.name == "1" && m.age == 1){}
         if(gender == m.gender && bloodT == m.bloodT)
             return true;
 
