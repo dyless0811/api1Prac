@@ -13,7 +13,7 @@ public class Run {
         Hobby[] polyArr = new Hobby[4];
         polyArr[0] = new Collecting(3, 100, "유표");
         polyArr[1] = new ReadingBook(4, 200, 100);
-        polyArr[2] = new ReadingBook(5, 300, 225);
+        polyArr[2] = new ReadingBook(5, 300, 230;
         polyArr[3] = new Collecting(6, 400, "도자기");
 
         for(int i=0;i<polyArr.length;i++) polyArr[i].print();
